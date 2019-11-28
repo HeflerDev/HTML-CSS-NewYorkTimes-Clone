@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  /* position: fixed; */
+  height: 43px;
+  width: 100%;
+}
+
+nav section {
+  width: 85%;
+  height: 43px;
+  margin: 0 auto;
+}
+
+nav div {
+  display: inline-block;
+}
+
+.icons {
+  width: 16px;
+  height: 16px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.left-nav-elements {
+  margin: 11.5 0;
+  width: 35%;
+  line-height: 20px;
+}
+
+.middle-nav-elements {
+  width: 30%;
+  text-align: center;
+}
+
+.right-nav-elements {
+  float: right;
+}
+
+.middle-nav-elements img {
+  width: 195px;
+  height: 26px;
+}
+
+header {
+  height: 300px;
+}

@@ -9,6 +9,7 @@ nav {
   /* position: fixed; */
   height: 43px;
   width: 100%;
+  border-bottom: solid lightgray 1px;
 }
 
 nav section {
@@ -19,6 +20,7 @@ nav section {
 
 nav div {
   display: inline-block;
+  line-height: 43px;
 }
 
 .icons {
@@ -26,6 +28,8 @@ nav div {
   height: 16px;
   margin-right: 25px;
   cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 nav a {
@@ -55,10 +59,36 @@ a:hover {
 }
 
 .middle-nav-elements img {
+  display: inline-block;
+  vertical-align: middle;
   width: 195px;
   height: 26px;
 }
-
+nav button {
+  vertical-align: middle;
+}
+nav button:nth-child(1) {
+  width: 120px;
+  white-space: nowrap;
+  font-size: 11px;
+  font-weight: 700;
+  height: 32px;
+  background-color: rgb(50, 104, 145);
+  color: white;
+  border: solid #326891 1px;
+  border-radius: 3px;
+}
+nav button:nth-child(2) {
+  width: 83px;
+  white-space: nowrap;
+  font-size: 11px;
+  font-weight: 700;
+  height: 32px;
+  background-color: rgb(50, 104, 145);
+  color: white;
+  border: solid #326891 1px;
+  border-radius: 3px;
+}
 header {
   height: 300px;
 }

@@ -14,22 +14,23 @@ nav {
 
 nav section {
   width: 85%;
-  height: 43px;
+  height: inherit;
+  text-align: center;
   margin: 0 auto;
 }
 
 nav div {
-  display: inline-block;
-  line-height: 43px;
+  height: inherit;
+  float: left;
 }
 
 .icons {
   width: 16px;
   height: 16px;
-  margin-right: 25px;
+  margin-top: 13.5px;
+  margin-right: 26px;
   cursor: pointer;
-  display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 nav a {
@@ -37,6 +38,8 @@ nav a {
   text-decoration: none;
   font-size: 14px;
   font-weight: 700;
+  vertical-align: top;
+  line-height: 43px;
 }
 
 a:hover {
@@ -44,51 +47,45 @@ a:hover {
 }
 
 .left-nav-elements {
-  margin: 11.5 0;
   width: 35%;
-  line-height: 20px;
+  text-align: left;
 }
 
 .middle-nav-elements {
   width: 30%;
-  text-align: center;
 }
 
 .right-nav-elements {
-  float: right;
+  width: 35%;
+  text-align: right;
 }
 
 .middle-nav-elements img {
-  display: inline-block;
-  vertical-align: middle;
   width: 195px;
   height: 26px;
+  margin-top: 8.5px;
 }
+
 nav button {
-  vertical-align: middle;
+  white-space: nowrap;
+  font-size: 11px;
+  font-weight: 700;
+  height: 32px;
+  background-color: #567b95;
+  color: white;
+  border: solid #326891 1px;
+  border-radius: 3px;
+  margin-top: 5.5px;
 }
+
 nav button:nth-child(1) {
   width: 120px;
-  white-space: nowrap;
-  font-size: 11px;
-  font-weight: 700;
-  height: 32px;
-  background-color: rgb(50, 104, 145);
-  color: white;
-  border: solid #326891 1px;
-  border-radius: 3px;
 }
+
 nav button:nth-child(2) {
   width: 83px;
-  white-space: nowrap;
-  font-size: 11px;
-  font-weight: 700;
-  height: 32px;
-  background-color: rgb(50, 104, 145);
-  color: white;
-  border: solid #326891 1px;
-  border-radius: 3px;
 }
+
 header {
   height: 300px;
 }

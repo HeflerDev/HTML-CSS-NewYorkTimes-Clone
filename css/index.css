@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  /*border: 2px solid black;*/
+  border: 1px solid red;
 }
 
 nav {
@@ -149,7 +149,7 @@ a {
 .header-botton .info-container ul {
   float: right;
   list-style: none;
-  width: ;
+  width: 300px;
 }
 time {
   line-height: 35px;
@@ -179,50 +179,40 @@ li.btnIcons {
 
 /* article section */
 main {
+  width: 80%;
+  margin: auto;
+}
+main section {
   width: 100%;
+  height: 100%;
 }
-.top-section {
-  width: 70%;
-  margin: 0 auto;
-  height: inherit;
-}
-
-.top-section article {
-  float: left;
-  margin-left: 25%;
-  width: 50%;
-  height: inherit;
-}
-
-.top-section article p {
-  margin-bottom: 20px;
-  line-height: 1.8rem;
-  font-weight: 400;
-  font-size: 20px;
-  color: #333;
+main article {
   max-width: 600px;
+  margin: auto;
 }
-
-aside {
-  float: right;
-  height: 100px;
-  width: 20%;
-  margin-left: 5%;
+main article p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: rgb(56, 56, 56);
+  line-height: 30px;
 }
-article hr {
-  width: 72px;
-  height: 0.5px;
+main article hr {
   margin: 20px auto;
-  color: rgb(204, 204, 204);
+  width: 20%;
 }
-article .unlock-sign {
+main article div {
   text-align: center;
-  margin: 10px 0;
-  color: #333;
-  font-size: 15px;
+}
+main article span {
   font-weight: 700;
 }
-article .unlock-sign a {
-  color: #326891;
+main article span a {
   text-decoration: none;
+}
+main section aside {
+  background-color: green;
+  margin: 20px;
+  width: 10%;
+  height: 500px;
+  float: right;
 }

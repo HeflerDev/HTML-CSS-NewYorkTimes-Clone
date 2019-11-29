@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  /*border: 1px solid red;*/
+  /* border: 1px solid red; */
 }
 
 nav {
-  /* position: fixed; */
+  position: fixed;
+  background-color: white;
+  top: 0;
   height: 43px;
   width: 100%;
   border-bottom: solid lightgray 1px;
@@ -76,7 +78,7 @@ nav button {
   color: white;
   border: solid #326891 1px;
   border-radius: 3px;
-  margin-top: 5.5px;
+  margin-top: 5px;
 }
 
 nav button:nth-child(1) {
@@ -149,7 +151,7 @@ a {
 .header-botton .info-container ul {
   float: right;
   list-style: none;
-  width: 300px;
+  width: 270px;
 }
 time {
   line-height: 35px;
@@ -160,7 +162,7 @@ time {
   float: left;
   width: 27px;
   height: 27px;
-  margin-right: 16px;
+  margin-left: 16px;
   line-height: 27px;
   text-align: center;
 }
@@ -179,7 +181,7 @@ li.btnIcons {
 
 /* article section */
 main {
-  width: 80%;
+  width: 65%;
   margin: auto;
 }
 main section {
@@ -187,11 +189,12 @@ main section {
   height: 100%;
 }
 main article {
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
-main article p {
-  font-size: 16px;
+main section article p {
+  font-size: 20px;
+  font-weight: 500;
   margin-bottom: 20px;
   color: rgb(56, 56, 56);
   line-height: 30px;
@@ -212,9 +215,63 @@ main article .unlock-sign a {
   color: #326891;
 }
 main section aside {
-  background-color: green;
-  margin: auto 20px;
-  width: 15%;
+  /* margin-right: 90px; */
+  width: 210px;
   height: 500px;
   float: right;
+}
+
+.signup{
+  width: 180px;
+  margin-top: 200px;
+  margin-bottom: 900px;
+}
+.signup h2{
+  font-size: 18px;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+.signup p{
+  font-size: 13px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  color: #666;
+}
+
+.signup button{
+  width: 100%;
+  height: 35px;
+  border: 1px solid rgb(86, 123, 149);
+  border-radius: 5px;
+  background-color: rgb(86, 123, 149);
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+
+}
+.editors-pick h2{
+  font-size: 14px;
+}
+.editors-pick hr{
+  margin-top: 12px;
+  margin-bottom: 15px;
+  color: rgb(204, 204, 204);
+}
+.aside-img div{
+  margin-bottom: 10px;
+}
+.aside-img .editors-text{
+  float: right;
+  max-width: 130px;
+  height: 60px;
+  padding-top: 9.5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.aside-img div img {
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
 }

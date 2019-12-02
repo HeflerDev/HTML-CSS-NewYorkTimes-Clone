@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  /* border: 1px solid red; */
 }
 
 nav {
@@ -34,6 +33,11 @@ nav div {
   margin-right: 26px;
   cursor: pointer;
   vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+  color: #888;
 }
 
 nav a {
@@ -81,6 +85,17 @@ nav button {
   margin-top: 5px;
 }
 
+.signup button {
+  width: 100%;
+  height: 35px;
+  border: 1px solid rgb(86, 123, 149);
+  border-radius: 5px;
+  background-color: rgb(86, 123, 149);
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+}
+
 nav button:nth-child(1) {
   width: 120px;
 }
@@ -89,13 +104,7 @@ nav button:nth-child(2) {
   width: 83px;
 }
 
-
-/*Navigation Bar End*/
-
-
-/*Header Section Start*/
-
-header>span {
+header > span {
   display: block;
   font-size: 40px;
   width: 600px;
@@ -122,13 +131,7 @@ figcaption {
   margin-top: 2px;
 }
 
-a {
-  text-decoration: none;
-  color: #888;
-}
-
-
-/*Header Botton Start*/
+/* Header Botton Start */
 
 .header-botton {
   width: 600px;
@@ -142,6 +145,18 @@ a {
   margin-bottom: 15px;
 }
 
+main article span {
+  font-weight: 700;
+}
+
+.item span {
+  width: 90%;
+  font-size: 12px;
+  color: rgb(153, 153, 153);
+  display: block;
+  text-align: right;
+}
+
 .header-botton .author span {
   text-decoration: underline;
   text-decoration-color: #ccc;
@@ -149,6 +164,16 @@ a {
 
 .header-botton .info-container {
   height: 35px;
+}
+
+.list-column ul {
+  float: left;
+  width: 16%;
+}
+
+.copyright ul {
+  list-style: none;
+  width: 100%;
 }
 
 .header-botton .info-container ul {
@@ -161,6 +186,26 @@ time {
   line-height: 35px;
   font-size: 13px;
   color: #333;
+}
+
+.list-column ul li {
+  height: 23px;
+  list-style: none;
+}
+
+.last ul li {
+  list-style: none;
+  height: 25px;
+  width: 200px;
+  margin: 10px auto;
+}
+
+.copyright ul li {
+  float: left;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #999;
+  font-size: 11px;
 }
 
 .header-botton .info-container ul li {
@@ -177,6 +222,31 @@ time {
   border-radius: 50%;
 }
 
+.item img {
+  width: 95%;
+  height: 65%;
+}
+
+.bottom-footer-header img {
+  width: 184px;
+  height: 24px;
+}
+
+.last img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  line-height: 25px;
+  vertical-align: middle;
+}
+
+.aside-img div img {
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+}
+
 .info-container ul li img {
   vertical-align: middle;
 }
@@ -184,7 +254,6 @@ time {
 li.btnIcons {
   background-color: none;
 }
-
 
 /* article section */
 
@@ -201,6 +270,10 @@ main section {
 main article {
   width: 50%;
   margin: auto;
+}
+
+p {
+  position: relative;
 }
 
 main section article p {
@@ -222,8 +295,34 @@ main article div {
   text-align: center;
 }
 
-main article span {
+.right-footer-content a {
+  text-decoration: none;
+  font-size: 19px;
+  color: #121212;
+}
+
+.bottom-footer-header a {
+  float: right;
+  width: 200px;
+  text-align: right;
+  font-size: 11px;
+  color: #567b95;
+}
+
+.list-column a {
+  color: black;
+}
+
+.last a {
+  color: black;
   font-weight: 700;
+  vertical-align: middle;
+}
+
+.links li a {
+  font-weight: 200;
+  font-size: 11px;
+  height: 16px;
 }
 
 main article .unlock-sign a {
@@ -257,17 +356,6 @@ main section aside {
   color: #666;
 }
 
-.signup button {
-  width: 100%;
-  height: 35px;
-  border: 1px solid rgb(86, 123, 149);
-  border-radius: 5px;
-  background-color: rgb(86, 123, 149);
-  color: white;
-  font-size: 13px;
-  font-weight: 700;
-}
-
 .editors-pick h2 {
   font-size: 14px;
 }
@@ -291,13 +379,6 @@ main section aside {
   color: #333;
 }
 
-.aside-img div img {
-  width: 75px;
-  height: 75px;
-  background-size: cover;
-  background-position: center;
-}
-
 main section .video-section {
   width: 600px;
   margin: 40px auto;
@@ -309,10 +390,6 @@ main section .video-section iframe {
 
 main section figcaption {
   width: 100%;
-}
-
-p {
-  position: relative;
 }
 
 main section .fade-out {
@@ -336,12 +413,15 @@ main section .fade-out button {
   right: 33%;
 }
 
-
-/*Footer Section*************************************************************/
+/* Footer Section */
 
 footer {
   width: 65%;
   margin: 0 auto;
+}
+
+.item {
+  text-align: left;
 }
 
 footer .left-footer-content {
@@ -361,28 +441,11 @@ footer .left-footer-content .item:nth-child(2) {
   float: right;
 }
 
-.item {
-  text-align: left;
-}
-
-.item img {
-  width: 95%;
-  height: 65%;
-}
-
-.item span {
-  width: 90%;
-  font-size: 12px;
-  color: rgb(153, 153, 153);
-  display: block;
-  text-align: right;
-}
-
 .item p {
   width: 90%;
 }
 
-.item date {
+.item h6 {
   width: 90%;
   font-size: 12px;
   color: rgb(153, 153, 153);
@@ -392,7 +455,6 @@ footer .left-footer-content .item:nth-child(2) {
 
 .right-footer-content {
   float: right;
-  /* height: 80%; */
   width: 25%;
   margin: 0 2%;
 }
@@ -410,18 +472,11 @@ footer .left-footer-content .item:nth-child(2) {
   padding: 15px 0;
 }
 
-.right-footer-content a {
-  text-decoration: none;
-  font-size: 19px;
-  color: #121212;
-}
-
 .soft-line {
   border-top: 1px solid rgb(226, 226, 226);
 }
 
-
-/*Bottom Footer Section*/
+/* Bottom Footer Section */
 
 .bottom-footer {
   width: 100%;
@@ -439,33 +494,7 @@ footer .left-footer-content .item:nth-child(2) {
 
 .bottom-footer-container {
   width: 100%;
-  height:  100%;
-}
-
-.bottom-footer-header img {
-  width: 184px;
-  height: 24px;
-}
-
-.bottom-footer-header a {
-  float: right;
-  width: 200px;
-  text-align: right;
-  font-size: 11px;
-  color: #567b95;
-}
-
-.list-column ul {
-  float: left;
-  width: 16%;
-}
-
-.list-column ul li {
-  list-style: none;
-}
-
-.list-column ul li {
-  height: 23px;
+  height: 100%;
 }
 
 li#first-line {
@@ -480,40 +509,9 @@ li#first-line {
   color: #333;
 }
 
-.list-column a {
-  color: black;
-}
-
 .last {
   border-left: solid gray 1px;
   padding-left: 15px;
-}
-
-.last ul li {
-  list-style: none;
-  height: 25px;
-  width: 200px;
-  margin: 10px auto;
-}
-
-.last img {
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
-  line-height: 25px;
-  vertical-align: middle;
-}
-
-.last a {
-  color: black;
-  font-weight: 700;
-  vertical-align: middle;
-}
-
-.links li a {
-  font-weight: 200;
-  font-size: 11px;
-  height: 16px;
 }
 
 .copyright {
@@ -523,25 +521,11 @@ li#first-line {
   text-align: center;
 }
 
-.copyright ul {
-  list-style: none;
-  width: 100%;
-}
-
-.copyright ul li {
-  float: left;
-  margin: 0 10px;
-}
-
-.copyright ul li {
-  text-decoration: none;
-  color: #999;
-  font-size: 11px;
-}
-.copyright hr{
+.copyright hr {
   margin-bottom: 10px;
 }
-.copyright div{
+
+.copyright div {
   width: 90%;
   margin: 0 auto;
 }

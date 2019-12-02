@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  /* border: 1px solid red;*/
+  /* border: 1px solid red; */
 }
 
 nav {
@@ -89,11 +89,13 @@ nav button:nth-child(2) {
   width: 83px;
 }
 
+
 /*Navigation Bar End*/
+
 
 /*Header Section Start*/
 
-header > span {
+header>span {
   display: block;
   font-size: 40px;
   width: 600px;
@@ -125,6 +127,7 @@ a {
   color: #888;
 }
 
+
 /*Header Botton Start*/
 
 .header-botton {
@@ -153,11 +156,13 @@ a {
   list-style: none;
   width: 270px;
 }
+
 time {
   line-height: 35px;
   font-size: 13px;
   color: #333;
 }
+
 .header-botton .info-container ul li {
   float: left;
   width: 27px;
@@ -175,23 +180,29 @@ time {
 .info-container ul li img {
   vertical-align: middle;
 }
+
 li.btnIcons {
   background-color: none;
 }
 
+
 /* article section */
+
 main {
   width: 65%;
   margin: auto;
 }
+
 main section {
   width: 100%;
   height: 100%;
 }
+
 main article {
   width: 50%;
   margin: auto;
 }
+
 main section article p {
   z-index: -1;
   font-size: 20px;
@@ -200,21 +211,26 @@ main section article p {
   color: rgb(56, 56, 56);
   line-height: 30px;
 }
+
 main article hr {
   margin: 20px auto;
   width: 72px;
   color: rgb(204, 204, 204);
 }
+
 main article div {
   text-align: center;
 }
+
 main article span {
   font-weight: 700;
 }
+
 main article .unlock-sign a {
   text-decoration: none;
   color: #326891;
 }
+
 main section aside {
   /* margin-right: 90px; */
   width: 210px;
@@ -227,11 +243,13 @@ main section aside {
   margin-top: 200px;
   margin-bottom: 900px;
 }
+
 .signup h2 {
   font-size: 18px;
   margin-bottom: 5px;
   line-height: 1.5;
 }
+
 .signup p {
   font-size: 13px;
   margin-bottom: 10px;
@@ -249,17 +267,21 @@ main section aside {
   font-size: 13px;
   font-weight: 700;
 }
+
 .editors-pick h2 {
   font-size: 14px;
 }
+
 .editors-pick hr {
   margin-top: 12px;
   margin-bottom: 15px;
   color: rgb(204, 204, 204);
 }
+
 .aside-img div {
   margin-bottom: 10px;
 }
+
 .aside-img .editors-text {
   float: right;
   max-width: 130px;
@@ -275,25 +297,31 @@ main section aside {
   background-size: cover;
   background-position: center;
 }
+
 main section .video-section {
   width: 600px;
   margin: 40px auto;
 }
+
 main section .video-section iframe {
   width: 90%;
 }
+
 main section figcaption {
   width: 100%;
 }
+
 p {
   position: relative;
 }
+
 main section .fade-out {
   position: relative;
   height: 300px;
   width: 100%;
   background-image: linear-gradient(to bottom, transparent, white);
 }
+
 main section .fade-out button {
   width: 30%;
   height: 50px;
@@ -307,83 +335,118 @@ main section .fade-out button {
   left: auto;
   right: 33%;
 }
+
+
 /*Footer Section*************************************************************/
+
 footer {
-  width: 100%;
-  height: 1000px; /*Test size*/
+  width: 65%;
+  margin: 0 auto;
 }
+
 footer .left-footer-content {
-  margin: 10px;
   width: 70%;
 }
+
 footer .left-footer-content .item {
   width: 33.33333%;
   height: 300px;
 }
+
 footer .left-footer-content .item:nth-child(1) {
   float: right;
 }
+
 footer .left-footer-content .item:nth-child(2) {
   float: right;
 }
+
 .item {
-  text-align: right;
-}
-.item img {
-  width: 90%;
-  margin: 5% 5% 2px 5%;
-  height: 65%;
-}
-.item span {
-  margin: 0 5% 5% 5%;
-  width: 100%;
-  font-size: 12px;
-  color: rgb(153, 153, 153);
-}
-.item p {
-  width: 90%;
-  margin: 5px 5%;
   text-align: left;
 }
+
+.item img {
+  width: 95%;
+  height: 65%;
+}
+
+.item span {
+  width: 90%;
+  font-size: 12px;
+  color: rgb(153, 153, 153);
+  display: block;
+  text-align: right;
+}
+
+.item p {
+  width: 90%;
+}
+
 .item date {
-  margin: 0 5% 5% 5%;
   width: 90%;
   font-size: 12px;
   color: rgb(153, 153, 153);
   display: block;
   text-align: left;
 }
+
 .right-footer-content {
   float: right;
-  height: 80%;
+  /* height: 80%; */
   width: 25%;
-  margin: 16px 2%;
+  margin: 0 2%;
 }
-.right-footer-content div {
+
+.middle-section h2 {
+  margin: 23px 0;
+  font-size: 16px;
 }
-.right-footer-content h3,
-p {
-  margin: 15px auto;
+
+.right-footer-content h2 {
+  margin: 17px auto;
 }
+
 .right-footer-content p {
+  padding: 15px 0;
+}
+
+.right-footer-content a {
+  text-decoration: none;
   font-size: 19px;
   color: #121212;
 }
+
 .soft-line {
   border-top: 1px solid rgb(226, 226, 226);
 }
+
+
 /*Bottom Footer Section*/
+
 .bottom-footer {
-  padding: 57px;
   width: 100%;
+  height: 500px;
 }
+
+.bottom-footer hr {
+  border-top: 3px double rgb(226, 226, 226);
+}
+
 .bottom-footer-header {
+  margin-top: 10px;
   margin-bottom: 20px;
 }
+
+.bottom-footer-container {
+  width: 100%;
+  height:  100%;
+}
+
 .bottom-footer-header img {
   width: 184px;
   height: 24px;
 }
+
 .bottom-footer-header a {
   float: right;
   width: 200px;
@@ -391,51 +454,94 @@ p {
   font-size: 11px;
   color: #567b95;
 }
-.list-column {
+
+.list-column ul {
   float: left;
-  width: 16.66666666%;
+  width: 16%;
 }
+
 .list-column ul li {
   list-style: none;
 }
+
 .list-column ul li {
   height: 23px;
 }
-.first-line h3 {
-  font-size: 18px;
+
+li#first-line {
+  margin: 0;
+}
+
+#first-line h3 {
+  font-size: 13px;
   line-height: 15px;
   font-weight: 700;
   height: 25px;
   color: #333;
 }
+
 .list-column a {
   color: black;
 }
-.last-column {
+
+.last {
   border-left: solid gray 1px;
   padding-left: 15px;
-  float: right;
-  margin-right: 10px;
 }
-.last-column ul li {
+
+.last ul li {
   list-style: none;
   height: 25px;
+  width: 200px;
   margin: 10px auto;
 }
-.last-column img {
+
+.last img {
   width: 16px;
   height: 16px;
   margin-right: 10px;
   line-height: 25px;
   vertical-align: middle;
 }
-.last-column a {
+
+.last a {
   color: black;
   font-weight: 700;
   vertical-align: middle;
 }
+
 .links li a {
   font-weight: 200;
   font-size: 11px;
   height: 16px;
+}
+
+.copyright {
+  width: 100%;
+  height: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
+.copyright ul {
+  list-style: none;
+  width: 100%;
+}
+
+.copyright ul li {
+  float: left;
+  margin: 0 10px;
+}
+
+.copyright ul li {
+  text-decoration: none;
+  color: #999;
+  font-size: 11px;
+}
+.copyright hr{
+  margin-bottom: 10px;
+}
+.copyright div{
+  width: 90%;
+  margin: 0 auto;
 }

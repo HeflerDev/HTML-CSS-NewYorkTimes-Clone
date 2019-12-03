@@ -40,7 +40,7 @@ a {
   color: #888;
 }
 
-li{
+li {
   list-style: none;
 }
 
@@ -153,27 +153,27 @@ main article span {
   font-weight: 700;
 }
 
-article figure .article-img{
+article figure .article-img {
   width: 100%;
   height: 400px;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url("https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-superJumbo.jpg?quality=90&auto=webp")
+  background-image: url("https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-superJumbo.jpg?quality=90&auto=webp");
 }
 
-article .article-end{
+article .article-end {
   font-size: 12px;
   color: #666;
   text-align: left;
 }
-.article-read{
-  padding: 24px 0 32px ;
+.article-read {
+  padding: 24px 0 32px;
 }
-.article-read .info-container ul{
+.article-read .info-container ul {
   width: 180px;
 }
-.article-read .info-container > button{
+.article-read .info-container > button {
   float: left;
   height: 100%;
   vertical-align: middle;
@@ -319,7 +319,25 @@ main article hr {
 main article div {
   text-align: center;
 }
-
+main table {
+  display: block;
+  width: 794px;
+  height: 483px;
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 98%;
+  margin: 15px auto;
+}
+main table tr td {
+  width: 200px;
+  height: 238px;
+  vertical-align: bottom;
+}
+main table tr td p {
+  height: 50%;
+  font-size: 12px;
+}
 .right-footer-content a {
   text-decoration: none;
   font-size: 19px;
@@ -414,7 +432,8 @@ main section .video-section iframe {
   border: none;
 }
 
-.video-section p, .article-fig p{
+.video-section p,
+.article-fig p {
   font-size: 15px;
   color: rgb(102, 102, 102);
   text-align: left;
@@ -461,7 +480,7 @@ footer .left-footer-content .item:nth-child(2) {
   text-decoration: none;
 }
 
-.item a:hover{
+.item a:hover {
   color: rgb(95, 95, 95);
 }
 
@@ -529,7 +548,7 @@ footer .left-footer-content .item:nth-child(2) {
   color: #333;
 }
 
-.last ul{
+.last ul {
   border-left: solid gray 1px;
   padding-left: 15px;
 }
@@ -550,7 +569,7 @@ footer .left-footer-content .item:nth-child(2) {
   margin: 0 auto;
 }
 
-.fixed-footer{
+.fixed-footer {
   position: fixed;
   bottom: 0;
   border-top: 2px solid black;
@@ -562,7 +581,7 @@ footer .left-footer-content .item:nth-child(2) {
   font-size: 15px;
 }
 
-.fixed-footer span{
+.fixed-footer span {
   padding-left: 200px;
   text-transform: uppercase;
   font-weight: bold;

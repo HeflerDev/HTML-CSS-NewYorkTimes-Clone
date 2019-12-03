@@ -339,7 +339,7 @@ main article div {
   text-align: center;
 }
 
-main table {
+main .theory-container {
   display: block;
   width: 794px;
   height: 483px;
@@ -350,15 +350,34 @@ main table {
   margin: 15px auto;
 }
 
-main table tr td {
-  width: 200px;
-  height: 238px;
+main .theory-container .upper-section {
+  width: 100%;
+  height: 50%;
   vertical-align: bottom;
 }
 
-main table tr td p {
+main .theory-container .upper-section p {
+  width: 25%;
+  float: left;
   height: 50%;
   font-size: 12px;
+  margin-top: 15%;
+  padding: 5px;
+}
+
+main .theory-container .lower-section {
+  width: 100%;
+  height: 50%;
+  vertical-align: bottom;
+}
+
+main .theory-container .lower-section p {
+  width: 25%;
+  float: left;
+  height: 50%;
+  font-size: 12px;
+  margin-top: 15%;
+  padding: 5px;
 }
 
 .right-footer-content a {

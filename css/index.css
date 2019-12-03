@@ -339,6 +339,26 @@ main article div {
   text-align: center;
 }
 
+.right-footer-content p {
+  padding: 15px 0;
+}
+
+.video-section p,
+.article-fig p {
+  font-size: 15px;
+  color: rgb(102, 102, 102);
+  text-align: left;
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+
+.signup p {
+  font-size: 13px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  color: #666;
+}
+
 main .theory-container {
   display: block;
   width: 794px;
@@ -441,13 +461,6 @@ main section aside {
   line-height: 1.5;
 }
 
-.signup p {
-  font-size: 13px;
-  margin-bottom: 10px;
-  line-height: 1.2;
-  color: #666;
-}
-
 .editors-pick h2 {
   font-size: 14px;
 }
@@ -479,15 +492,6 @@ main section .video-section {
 main section .video-section iframe {
   width: 100%;
   border: none;
-}
-
-.video-section p,
-.article-fig p {
-  font-size: 15px;
-  color: rgb(102, 102, 102);
-  text-align: left;
-  line-height: 18px;
-  margin-bottom: 15px;
 }
 
 /* Footer Section */
@@ -543,10 +547,6 @@ footer .left-footer-content .item:nth-child(2) {
 
 .right-footer-content h2 {
   margin: 17px auto;
-}
-
-.right-footer-content p {
-  padding: 15px 0;
 }
 
 .soft-line {
